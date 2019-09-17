@@ -99,38 +99,71 @@ textarea {
 html {
   background-color: #fff;
   height: 100%;
+  width: 100%;
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
-  padding: 2em;
-  font-size: 1.25em;
+  font-family: 'Manjari', sans-serif;
+  font-weight: 600;
+  padding: 4em;
+  font-size: 1em;
   height: 100%;
+}
+
+span {
+    color: #545454;
+    font-size: 1.12em;
 }
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
-  font-weight: 700;
   display: flex;
+  flex-flow: row nowrap;
   justify-content: space-between;
+  align-items: center;
 }
 
-.div-1, .div-2, .div-3 {
+.div-1 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color: #fff;
+  color: #df744a;
+  background-color: #fedcd2;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  font-size: 1em;
   height: 300px;
+  padding: 20px;
   width: 30%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.div-2 {
+    /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
+    color: #545454;
+    background-color: #bfd8d2;
+    line-height: 1.5em;
+    font-size: 1em;
+    height: 300px;
+    padding: 20px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-
-
+  .div-3 {
+    /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
+    color: #df744a;
+    background-color: #fedcd2;
+    line-height: 1.5em;
+    font-size: 1em;
+    height: 300px;
+    padding: 20px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 /* ==========================================================================
    Helper classes
    ========================================================================== */
